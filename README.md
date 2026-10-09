@@ -16,12 +16,12 @@ const sales = [
 ];
 ```
 ### Functional requirements: 
-- [ ] Calculate total sales revenue.
+- [x] Calculate total sales revenue.
 - [ ] Calculate the total number of units sold.
 - [ ] Identify the product with the highest revenue.
 - [ ] Group revenue by category.
 - [ ] Calculate the average transaction value.
-- [ ] Detect and handle an empty sales collection.
+- [x] Detect and handle an empty sales collection.
 
 ### Technical constraints
 - Use JavaScript with ES modules.
@@ -31,7 +31,7 @@ const sales = [
 - Don't use external libraries.
 
 ### How to Run
-```node app,js```
+Run ```node app.js``` at terminal.
 
 ### Learning Objectives
 - Practice array manipulation and object operations.
