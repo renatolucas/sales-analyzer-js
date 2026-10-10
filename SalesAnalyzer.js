@@ -1,5 +1,5 @@
 export function totalSalesRevenue(sales) {
-    return sales.reduce((total, sales) => total + (sales.price * sales.quantity), 0);
+    return sales.reduce((total, sale) => total + (sale.price * sale.quantity), 0);
 }
 
 export function totalUnitsSold(sales) {
