@@ -9,3 +9,4 @@ const sales = [
 ];
 
 console.log(salesAnalyzer.totalSalesRevenue(sales));
+console.log(salesAnalyzer.totalUnitsSold(sales));

@@ -3,7 +3,7 @@ export function totalSalesRevenue(sales) {
 }
 
 export function totalUnitsSold(sales) {
-
+    return sales.reduce((total, sale) => total + sale.quantity, 0);
 }
 
 export function productWithHighestRevenue(sales) {
