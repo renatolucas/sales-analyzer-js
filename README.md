@@ -17,7 +17,7 @@ const sales = [
 ```
 ### Functional requirements: 
 - [x] Calculate total sales revenue.
-- [ ] Calculate the total number of units sold.
+- [x] Calculate the total number of units sold.
 - [ ] Identify the product with the highest revenue.
 - [ ] Group revenue by category.
 - [ ] Calculate the average transaction value.
