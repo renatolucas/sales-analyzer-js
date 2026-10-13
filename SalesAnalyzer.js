@@ -22,8 +22,16 @@ export function productWithHighestRevenue(sales) {
     return highestRevenue;
 }
 
-export function revenueByCategory(sales, category) {
+export function revenueByCategory(sales) {
+    if (emptySales(sales)) {
+        return null;
+    }
 
+    return sales.reduce((acc, product) => {
+        const key = product.category;
+        acc[key] = (acc[key] || 0) + product.price * product.quantity;
+        return acc;
+    }, {})
 }
 
 export function averageSaleValue(sales) {

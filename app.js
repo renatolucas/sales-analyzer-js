@@ -8,6 +8,7 @@ const sales = [
     { id: 5, product: "Mouse", category: "Periféricos", price: 120, quantity: 2 }
 ];
 
-console.log(salesAnalyzer.totalSalesRevenue(sales));
-console.log(salesAnalyzer.totalUnitsSold(sales));
-console.log(salesAnalyzer.productWithHighestRevenue(sales));
+// console.log(salesAnalyzer.totalSalesRevenue(sales));
+// console.log(salesAnalyzer.totalUnitsSold(sales));
+// console.log(salesAnalyzer.productWithHighestRevenue(sales));
+console.log(salesAnalyzer.revenueByCategory(sales));
