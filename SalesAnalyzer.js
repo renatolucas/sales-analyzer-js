@@ -7,7 +7,19 @@ export function totalUnitsSold(sales) {
 }
 
 export function productWithHighestRevenue(sales) {
+    if (emptySales(sales)) {
+        return null;
+    }
 
+    let highestRevenue = sales[0];
+
+    for (const product of sales) {
+        if ((product.price * product.quantity) > (highestRevenue.price * highestRevenue.quantity)) {
+            highestRevenue = product;
+        }
+    }
+
+    return highestRevenue;
 }
 
 export function revenueByCategory(sales, category) {

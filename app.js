@@ -10,3 +10,4 @@ const sales = [
 
 console.log(salesAnalyzer.totalSalesRevenue(sales));
 console.log(salesAnalyzer.totalUnitsSold(sales));
+console.log(salesAnalyzer.productWithHighestRevenue(sales));
