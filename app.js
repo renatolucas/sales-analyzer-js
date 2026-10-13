@@ -11,4 +11,5 @@ const sales = [
 // console.log(salesAnalyzer.totalSalesRevenue(sales));
 // console.log(salesAnalyzer.totalUnitsSold(sales));
 // console.log(salesAnalyzer.productWithHighestRevenue(sales));
-console.log(salesAnalyzer.revenueByCategory(sales));
+//console.log(salesAnalyzer.revenueByCategory(sales));
+console.log(salesAnalyzer.averageSaleValue(sales));

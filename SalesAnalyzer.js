@@ -35,6 +35,12 @@ export function revenueByCategory(sales) {
 }
 
 export function averageSaleValue(sales) {
+    if (emptySales(sales)) {
+        return null;
+    }
+
+    const totalSales = totalSalesRevenue(sales);
+    return totalSales / sales.length;
 
 }
 

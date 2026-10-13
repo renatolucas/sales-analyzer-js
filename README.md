@@ -20,7 +20,7 @@ const sales = [
 - [x] Calculate the total number of units sold.
 - [x] Identify the product with the highest revenue.
 - [x] Group revenue by category.
-- [ ] Calculate the average transaction value.
+- [x] Calculate the average transaction value.
 - [x] Detect and handle an empty sales collection.
 
 ### Technical constraints
