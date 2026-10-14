@@ -8,11 +8,18 @@ import * as salesAnalyzer from './SalesAnalyzer.js'
 //     { id: 5, product: "Mouse", category: "Periféricos", price: 120, quantity: 2 }
 // ];
 
-//const sales = []
+const sales = null;
 
-// console.log(salesAnalyzer.totalSalesRevenue(sales));
-// console.log(salesAnalyzer.totalUnitsSold(sales));
-// console.log(salesAnalyzer.productWithHighestRevenue(sales));
-// console.log(salesAnalyzer.revenueByCategory(sales));
-// console.log(salesAnalyzer.averageSaleValue(sales));
-console.log(salesAnalyzer.emptySales(null));
+try {
+    console.log(salesAnalyzer.totalSalesRevenue(sales));
+    console.log(salesAnalyzer.totalUnitsSold(sales));
+    console.log(salesAnalyzer.productWithHighestRevenue(sales));
+    console.log(salesAnalyzer.revenueByCategory(sales));
+    console.log(salesAnalyzer.averageSaleValue(sales));
+    console.log(salesAnalyzer.emptySales(sales));
+
+} catch (e) {
+    console.error("Error processing sales:", e.message);
+}
+
+

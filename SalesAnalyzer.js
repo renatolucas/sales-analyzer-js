@@ -1,8 +1,16 @@
 export function totalSalesRevenue(sales) {
+    if (emptySales(sales)) {
+        return null;
+    }
+
     return sales.reduce((total, sale) => total + (sale.price * sale.quantity), 0);
 }
 
 export function totalUnitsSold(sales) {
+    if (emptySales(sales)) {
+        return null;
+    }
+
     return sales.reduce((total, sale) => total + sale.quantity, 0);
 }
 
