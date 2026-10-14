@@ -45,5 +45,11 @@ export function averageSaleValue(sales) {
 }
 
 export function emptySales(sales) {
+
+    if (!Array.isArray(sales)) {
+        throw new TypeError("Parameter isn't an array");
+    }
+
     return sales.length === 0;
+
 }
